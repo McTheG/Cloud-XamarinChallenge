@@ -1,13 +1,5 @@
-Cloud-XamarinChallenge
-======================
+# Cloud-XamarinChallenge - *[Christiaan de Wijk]*
 
+## Summary
 
-Christiaan de Wijk
-======================
-2EA2
-======================
-
-Challenge 1 en 2
-======================
-Challenge 2 werkt niet optimaal.
-================================================
+Challenge 1 en 2, Challenge 2 werkt niet optimaal.
