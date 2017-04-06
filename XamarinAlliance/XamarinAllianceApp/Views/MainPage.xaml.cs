@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamarinAllianceApp.Controllers;
 using XamarinAllianceApp.Models;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace XamarinAllianceApp.Views
 {

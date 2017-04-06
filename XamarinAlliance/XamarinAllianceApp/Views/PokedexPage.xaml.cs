@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamarinAllianceApp.Controllers;
 using XamarinAllianceApp.Models;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace XamarinAllianceApp.Views
 {
@@ -28,7 +29,8 @@ namespace XamarinAllianceApp.Views
         }
 
         // http://developer.xamarin.com/guides/cross-platform/xamarin-forms/working-with/listview/#pulltorefresh
-        public async void OnRefresh(object sender, EventArgs e)
+        public async void OnRefresh(object
+             sender, EventArgs e)
         {
             var list = (ListView)sender;
             Exception error = null;

@@ -1,16 +1,19 @@
 ﻿using System;
-
+using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 using XamarinAllianceApp.Views;
 
 namespace XamarinAllianceApp
 {
-	public class App : Application
+    public class App : Application
 	{
-		public App ()
+        public App ()
 		{
-			// The root page of your application
-			MainPage = new NavigationPage(new MainPage());
+            string mobileServiceClientUrl = "http://xamarinalliancebackend.azurewebsites.net";
+            MobileServiceClient Client = new MobileServiceClient(mobileServiceClientUrl);
+
+            // The root page of your application
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart ()
